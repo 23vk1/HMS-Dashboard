@@ -98,7 +98,7 @@ const Dashboard = () => {
                   return (
                     <tr key={appointment._id}>
                       <td>{`${appointment.firstName} ${appointment.firstName}`}</td>
-                      <td>{appointment.appointment_data.substring(0, 16)}</td>
+                      <td>{appointment.appointment_date.substring(0, 16)}</td>
                       <td>{`${appointment.doctor.firstName} ${appointment.doctor.lastName}`}</td>
                       <td>{appointment.department}</td>
 
